@@ -9,13 +9,13 @@ idade=c(10,10,10,10,30,30,30,30,30,30,30,30,50,50,50,50,70,70,70,90)
 #Segunda forma de criar o vetor
 idade=c(rep(10,4),rep(30,8),rep(50,4),rep(70,3),90)
 
-#Calculando frequências simples
+#Calculando frequência simples
 frequencia_simples=table(idade)
 
 #Criando dataframe
 dados_simples=data.frame(frequencia_simples)
 
-# Calculando frequências acumulada
+# Calculando frequência acumulada
 frequencia_acumulada=cumsum(frequencia_simples)
 
 #Adicionando coluna de frequência acumulada ao dataframe 
